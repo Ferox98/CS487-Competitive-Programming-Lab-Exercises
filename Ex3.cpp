@@ -1,10 +1,14 @@
+/*
+	Author: Kaleab Belete Belay
+	This program takes in two integers of unbounded length and returns their sum
+*/
+
 #include <iostream>
 #include <math.h>
 #include <string.h>
 #include <sstream>
 
 using namespace std;
-
 
 int toInt(string str) {
 	stringstream ss(str);
