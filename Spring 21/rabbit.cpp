@@ -10,8 +10,8 @@ public:
         while (it != m.end()) {
             int a = it->second;
             while(a > 0){
-                ans += (it->first+1);
-                a -= (it->first+1);
+                ans += (it->first + 1);
+                a -= (it->first + 1);
             }
             it++;
         }
